@@ -4,7 +4,9 @@ package com.goobot.apiMPSP.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "CHAT")
 public class Chat {
+
     Long id;
     Chamado chamado;
     String texto;

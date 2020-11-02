@@ -3,6 +3,7 @@ package com.goobot.apiMPSP.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "PARAMETRIZACAO")
 public class Parametrizacao {
 
     String chave;

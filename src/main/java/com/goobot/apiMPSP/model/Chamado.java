@@ -6,6 +6,7 @@ import java.util.List;
 
 
 @Entity
+@Table(name = "CHAMADO")
 public class Chamado {
 
     Long id;

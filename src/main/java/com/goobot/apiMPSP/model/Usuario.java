@@ -2,8 +2,10 @@ package com.goobot.apiMPSP.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "USUARIO")
 public class Usuario {
 
     String login;
